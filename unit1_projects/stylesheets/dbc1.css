@@ -1,3 +1,28 @@
 h1 {
-	color: red;
+	color: #58aa64;
+}
+
+p {
+	font: 12px sans-serif;
+}
+
+body {
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #7a6f6f;
+	background-color: #efd1e0;
+	background-image: url(dropbox/dbcprep/Git/ninachurch.github.io/unit1_projects/images/grass.jpg);
+}
+
+a {
+	color: #58aa64;
+	text-decoration: none;
+}
+
+a:hover {color: red}
+
+#whatNow-header {
+	border-top: 3px solid #58aa64;
 }
