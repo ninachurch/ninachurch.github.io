@@ -1,0 +1,8 @@
+a:link {color: #c912fe;} /*unvisited link*/
+a:visited {color: ##b128d9;} /*visited link*/
+a:hover {color: #eb331f;} /*mouse over link*/
+a:active {color: #021517} /*selected link*/
+
+#pageTitle {
+	color: #cc39d9;
+}
