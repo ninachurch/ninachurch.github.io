@@ -13,7 +13,7 @@ body {
 	padding-bottom: 50px;
 	color: #7a6f6f;
 	background-color: #efd1e0;
-	background-image: url(dropbox/dbcprep/Git/ninachurch.github.io/unit1_projects/images/grass.jpg);
+	background: url("images/grass.jpg");
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {color: red}
+a:hover {color: #eb331f}
 
 #whatNow-header {
 	border-top: 3px solid #58aa64;

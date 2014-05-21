@@ -1,0 +1,52 @@
+
+.mostExcited {
+	color: #1fd5eb;
+}
+
+#header {
+	margin: auto;
+ 	width: 300px;
+ 	text-align: center;
+ }
+
+ .subContent {
+ 	float: left;
+ 	width: 50%; 	
+ 	margin: 10px;
+ 	text-align: center;
+ }
+
+.imageWithCaption { 	
+ 	float: right;
+ 	width: 50%;
+ 	margin: 20px;
+ 	border: 6px dashed #1fd5eb;
+ 	padding: 5px;
+ 	width: 600px;
+ 	height: 419px;
+ }
+
+ #caption {
+	position: absolute;
+	top: 380px;
+	font-size: 15;
+	background-color: #f7f3f8;
+}
+ #spansHeader {
+ 	color: #1fd5eb;
+ }
+
+ .footer {
+ 	border: 2px solid #1fd5eb;
+ 	width: 600px;
+ 	text-align: center;
+ 	font-size: 10pt;
+ 	clear: both;
+ 	margin: auto;
+ }
+
+a:link {color: #1fd5eb;} /*unvisited link*/
+a:visited {color: #1f54eb;} /*visited link*/
+a:hover {color: #eb331f;} /*mouse over link*/
+a:active {color: #021517} /*selected link*/
+
