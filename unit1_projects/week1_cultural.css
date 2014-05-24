@@ -1,5 +1,16 @@
 html, body {height: 100%; margin: 0px; !important;}
 
+#top, #bottom, #left, #right {
+	background: #d3c3d8
+	position: fixed;
+}
+#left, #right {
+	top: 0; bottom: 0;
+	width: 15px;
+}
+#left {left: 0;}
+#right {right: 0;}
+
 #headerBar {
 	position: fixed;
 	top: 0;
