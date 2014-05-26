@@ -6,3 +6,11 @@ a:active {color: #021517} /*selected link*/
 #pageTitle {
 	color: #cc39d9;
 }
+
+@font-face {
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	font-family: 'Oswald'
+}
