@@ -1,0 +1,53 @@
+/**
+ * This file contains all the elements that use the
+ * accent color. Simply change the colors below to suit.
+ *
+ * You can also add any custom CSS you want in this file
+ * and it will automatically override the templates default
+ * CSS.
+ */
+
+/**
+ * Accent colors
+ */
+body.border
+{
+    border-top: 4px solid #dd4951;
+}
+
+#page a,
+#articles a,
+#archives a,
+nav#primary ul li.current_page_item a,
+#aside a:hover,
+#filters ul li a:hover,
+#commentbox a:hover
+{
+    color: #dd4951;
+}
+
+.post h4 a:hover
+{
+    color: #dd4951!important;
+}
+
+.button,
+[class^="fancy icon-"], [class*=" fancy icon-"],
+nav#primary ul li a:hover,
+nav#primary ul li.current_page_item a,
+#respond input[type="submit"],
+#contact_form input[type="submit"],
+aside .tagcloud a:hover,
+aside #searchform input[type="submit"]:hover,
+ul.posttags li a:hover,
+ul#comments .reply a:hover,
+.pagination a:hover,
+.postnavi ul li a:hover,
+.progressbar > div,
+.content .button,
+.jp-play-bar,
+#top
+{
+    background: #dd4951;
+
+}

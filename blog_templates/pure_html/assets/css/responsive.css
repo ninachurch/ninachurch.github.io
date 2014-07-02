@@ -1,0 +1,442 @@
+/** 
+ * iPhone (portrait)
+ */
+#logo img
+{
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+nav#primary ul
+{
+    display: none;
+}
+    
+nav#secondary
+{
+    display: inherit;
+}
+
+#gallery ul li
+{
+    width: 100%;
+    height: auto;
+}
+       
+.featured_image,
+.post iframe
+{
+    width: 141%;
+    max-width: 480px;
+}
+    
+.post iframe
+{
+    height: 200px;
+}
+
+.jp-progress
+{
+    width: 70%;
+}
+
+.boxed
+{
+    width: 75%;
+}
+    
+.one_full,
+.one_half,
+.one_third,
+.two_third,
+.one_quarter,
+.one_fifth
+{
+    width: 100%;
+}
+/**
+ * iPads (portrait)
+ */
+@media only screen and (min-width: 767px) { 
+    #logo img
+    {
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    nav#primary ul
+    {
+        display: none;
+    }
+    
+    nav#secondary
+    {
+        display: inherit;
+    }
+    
+    #gallery ul li
+    {
+        width: 44%;
+        height: auto;
+    }
+    
+    .featured_image,
+    .post iframe
+    {
+        width: 123%;
+        max-width: 525px;
+    }
+
+    .post iframe
+    {
+        height: 300px;
+    }
+
+    .jp-progress
+    {
+        width: 90%;
+    }
+    
+    .boxed
+    {
+        width: 50%;
+    }
+    
+    .one_full,
+    .one_half,
+    .one_third,
+    .two_third,
+    .one_quarter,
+    .one_fifth
+    {
+        width: 100%;
+    }
+}
+
+/** 
+ * iPads (landscape)
+ */
+@media only screen and (min-width: 1023px) {
+    #logo img
+    {
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    nav#primary ul
+    {
+        display: inherit;
+    }
+    
+    nav#secondary
+    {
+        display: none;
+    }
+    
+    #gallery ul li
+    {
+        width: 45%;
+        height: auto;
+    }
+    
+    .featured_image,
+    .post iframe
+    {
+        width: 119%;
+        max-width: 602px;
+    }
+    
+    .post iframe
+    {
+        height: 325px;
+    }
+    
+    .jp-progress
+    {
+        width: 90%;
+    }
+    
+    .boxed
+    {
+        width: 45%;
+    }
+    
+    .one_full
+    {
+        width: 100%;
+    }
+    
+    .one_half
+    {
+        width: 50%;
+    }
+    
+    .one_third
+    {
+        width: 45%;
+    }
+    
+    .two_third
+    {
+        width: 66.66666%;
+    }
+    
+    .one_quarter
+    {
+        width: 25%;
+    }
+    
+    .one_fifth
+    {
+        width: 20%;
+    }
+}
+
+/** 
+ * Standard Desktops
+ */
+@media only screen and (min-width: 1279px) {
+    #logo img
+    {
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    nav#primary ul
+    {
+        display: inherit;
+    }
+    
+    nav#secondary
+    {
+        display: none;
+    }
+    
+    #gallery ul li
+    {
+        width: 29%;
+        height: auto;
+    }
+    
+    .featured_image,
+    .post iframe
+    {
+        width: 117%;
+        max-width: 668px;
+    }
+
+    .post iframe
+    {
+        height: 350px;
+    }
+    
+    .jp-progress
+    {
+        width: 90%;
+    }
+    
+    .boxed
+    {
+        width: 40%;
+    }
+    
+    .one_full
+    {
+        width: 100%;
+    }
+    
+    .one_half
+    {
+        width: 50%;
+    }
+    
+    .one_third
+    {
+        width: 30.33333%;
+    }
+    
+    .two_third
+    {
+        width: 66.66666%;
+    }
+    
+    .one_quarter
+    {
+        width: 25%;
+    }
+    
+    .one_fifth
+    {
+        width: 20%;
+    }
+}
+
+/** 
+ * Large Desktops
+ */
+@media only screen and (min-width: 1599px) { 
+    #logo img
+    {
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    nav#primary ul
+    {
+        display: inherit;
+    }
+    
+    nav#secondary
+    {
+        display: none;
+    }
+    
+    #gallery ul li
+    {
+        width: 29%;
+        height: auto;
+    }
+    
+    .featured_image,
+    .post iframe
+    {
+        width: 115%;
+        max-width: 700px;
+    }
+    
+    .post iframe
+    {
+        height: 375px;
+    }
+    
+    .jp-progress
+    {
+        width: 90%;
+    }
+    
+    .boxed
+    {
+        width: 35%;
+    }
+    
+    .one_full
+    {
+        width: 100%;
+    }
+    
+    .one_half
+    {
+        width: 50%;
+    }
+    
+    .one_third
+    {
+        width: 30.33333%;
+    }
+    
+    .two_third
+    {
+        width: 66.66666%;
+    }
+    
+    .one_quarter
+    {
+        width: 25%;
+    }
+    
+    .one_fifth
+    {
+        width: 20%;
+    }
+}
+/** 
+ * Huge Desktops
+ */
+@media only screen and (min-width: 1919px) { 
+    #logo img
+    {
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    nav#primary ul
+    {
+        display: inherit;
+    }
+    
+    nav#secondary
+    {
+        display: none;
+    }
+    
+    #gallery ul li
+    {
+        width: 30%;
+        height: auto;
+    }
+    
+    .featured_image,
+    .post iframe
+    {
+        width: 113%;
+    }
+    
+    .post iframe
+    {
+        height: 400px;
+    }
+    
+    .jp-progress
+    {
+        width: 90%;
+    }
+    
+    .boxed
+    {
+        width: 35%;
+    }
+    
+    .one_full
+    {
+        width: 100%;
+    }
+    
+    .one_half
+    {
+        width: 50%;
+    }
+    
+    .one_third
+    {
+        width: 30.33333%;
+    }
+    
+    .two_third
+    {
+        width: 66.66666%;
+    }
+    
+    .one_quarter
+    {
+        width: 25%;
+    }
+    
+    .one_fifth
+    {
+        width: 20%;
+    }
+}
+/* IE9 and IE10 rule sets go here */
+@media screen and (min-width:0\0) {  
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before 
+    {
+        margin-top: -500px!important;
+    }
+}

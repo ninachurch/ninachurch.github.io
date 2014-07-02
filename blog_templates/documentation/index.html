@@ -1,0 +1,215 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="nojs ms lt_ie7" lang="en"><![endif]-->
+<!--[if IE 7]><html class="nojs ms ie7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="nojs ms ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><html class="nojs ms" lang="en"><![endif]-->
+
+<html lang="en">
+
+<head>
+	<title>Documentation</title>
+
+	<!-- meta -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="author" content="iKreativ">
+
+	<!-- we're minifying and combining all our css -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+  	<!-- grab jquery from google cdn. fall back to local if offline -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
+
+    <!-- load up our js -->
+    <script src="assets/js/prettify/run_prettify.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/application.js"></script>
+
+    <!-- some conditionals for ie -->
+    <!--[if IE]><link href="assets/css/ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <!-- HTML5 elements in less than IE9, yes please! -->
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- If less than IE8 add some JS for the webfont icons -->
+    <!--[if lt IE 8]><script src="assets/js/ie_font.js"></script><![endif]-->
+</head>
+
+<body id="index">
+
+	<!-- main -->
+	<section id="main" role="main">
+
+		<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6 -->
+		<!--[if lt IE 7]>
+			<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+		<![endif]-->
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+	        <!-- nav -->
+	        <nav id="primary">
+				<ul id="menu-primary">
+				    <div id="logo">
+						<a href="http://lovethem.es">
+							<img src="assets/img/logo.png" alt="LoveThemes" />
+						</a>
+					</div>
+					<li><a href="#introduction">Introduction</a></li>
+					<li><a href="#structure">Structure</a></li>
+					<li><a href="#install">Install</a></li>
+					<li><a href="#classes">Shortcodes & Classes</a></li>
+					<li><a href="#troubleshooting">Troubleshooting</a></li>
+				</ul>
+			</nav>
+			<!-- /nav -->
+
+			<!-- introduction -->
+			<section id="introduction" class="section">
+				<h1>Introduction</h1>
+				<p><b>Firstly, thanks for buying our templates, we really do appreciate it!</b></p>
+				<p>We have tried to cover everything in the documentation, but if there is anything at all that you need help with, do not hesitate to contact us, we'll do our best to help you out.</p>
+			</section>
+			<!-- /introduction -->
+
+			<!-- structure -->
+			<section id="structure" class="section">
+				<h1>Structure.</h1>
+				<p>The general template structure is the consistent throughout the template. Below we will outline typical HTML, CSS and Javascript file structure.</p>
+
+<h6>Template structure:</h6>
+<pre>
+&lt;!-- nav --&gt;
+&lt;nav id="primary"&gt;
+    &lt;div class="boxed"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+&lt;!-- /nav --&gt;
+</pre>
+
+<h6>CSS structure:</h6>
+<pre>
+/**
+ * Nav
+ */
+nav#primary
+{
+    background: #3F3F49;
+    width: 200px;
+    height: 100%;
+    padding: 25px 50px 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav#primary ul li
+{
+    display: block;
+    text-align: right;
+    padding: 5px 0;
+}
+
+nav#primary ul li a
+{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+nav#primary ul li a:hover
+{
+ 	color: #F16863;
+}
+/* @end Nav */
+</pre>
+
+<h6>JS structure:</h6>
+<pre>
+// primary drop menu
+$("#primary li").hover(function() {
+      $(this).find('ul:first').stop(true, true).animate({
+            height: ['toggle', 'swing'],
+            opacity: 'toggle'
+      }, 300, 'linear');
+});
+</pre>
+			</section>
+			<!-- /structure -->
+
+			<!-- install -->
+			<section id="install" class="section">
+			    <h1>Install.</h1>
+			    <p>Using your new HTML template is easy. Simply upload the files to your webhost via FTP.</p>
+
+                <h6>Installation via FTP:</h6>
+                <p>Open up your favourite FTP client and enter your FTP credentials given to you by your Web Host.</p>
+                <p>Once you have connected to your server via FTP you need to navigate to your root directory, usually /public_html/, /htdocs/, or /www/</p>
+                <p>Next extract / unzip your theme.zip. This will create a folder with the same name as the theme.zip file only without the .zip extension.</p>
+                <p>Now you need to upload the files from INSIDE the extracted folder into your root directory directory with your FTP client.</p>
+                <p>Once uploaded, head over to your domain name in your web browser and you should now see your template!</p>
+                <p>You can now begin editing your template to suit your needs.</p>
+
+                <hr>
+			</section>
+			<!-- /install -->
+
+			<!-- shortcodes & classes -->
+			<section id="classes" class="section">
+			     <h1>Classes.</h1>
+			     <p>All of our themes are built around our popular CSS framework Workless.</p>
+			     <p>So, not only do you get all the goodies we build into our themes, you also inherit the classes from Workless!</p>
+			     <p>For those of you comfortable with CSS you can checkout the <a href="//workless.ikreativ.com">Workless site</a> for full info and available options.</p>
+			     <p>Ok, let's get on with it!</p>
+
+			     <h6>Columns.</h6>
+			     <p>You have a choice of columns for arranging your content, you have the following options:</p>
+			     <p>one full, one half, one third, two third, one quarter and one fifth.</p>
+			     <p>Using columns is very easy, you simply wrap any content you like with any column you like, you can also either use the shortcode variant or directly with a CSS class, let's have a look at the usage:</p>
+
+<pre>
+// Class usage
+&lt;div class="one_half"&gt;
+    you add your content in here, then close the element.
+&lt;/div&gt;
+</pre>
+			</section>
+			<!-- /shortcodes & classes -->
+
+			<!-- troubleshooting -->
+			<section id="troubleshooting" class="section">
+			     <h1>Troubleshooting.</h1>
+
+			     <ol>
+			         <li>
+			             <b>Q: I uploaded the files with get an error when visiting my site?</b><br>
+			             A: Did you upload all the files from INSIDE the folder not the folder itself?
+			         </li>
+			</section>
+			<!-- /troubleshooting -->
+
+		</div>
+		<!-- /wrapper -->
+
+	</section>
+	<!-- /main -->
+
+	<!-- top -->
+	<div id="top">
+		<a href="#index">
+			<i class="icon-chevron-up"></i>
+		</a>
+	</div>
+	<!-- /top -->
+
+</body>
+</html>

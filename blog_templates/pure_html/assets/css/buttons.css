@@ -1,0 +1,111 @@
+/**
+ * Buttons
+ */
+.button
+{
+	background: #333333;
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-block;
+	padding: 12px 18px;
+	margin-bottom: 1.5em;
+	color: #ffffff!important;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 2px;
+	-webkit-transition: 250ms linear all; 
+	-moz-transition: 250ms linear all; 
+	transition: 250ms linear all; 
+}
+
+.small.button
+{
+	font-size: 14px;
+}
+
+.medium.button
+{
+	font-size: 18px;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.large.button
+{
+	font-size: 20px;
+	padding: 20px 35px;
+}
+
+.rounded.button
+{
+	border-radius: 25px;
+}
+
+/**
+ * Pink
+ */
+.pink.button
+{
+	background: #fe57a1!important;
+}
+
+/**
+ * Green
+ */
+.green.button
+{
+	background: #91bd09!important;
+}
+
+/**
+ * Blue
+ */
+.blue.button
+{
+	background: #2daebf!important;
+}
+
+/**
+ * Red
+ */
+.red.button
+{
+	background: #ff0000!important;
+}
+
+/**
+ * Magenta
+ */
+.magenta.button
+{
+	background: #a9014b!important;
+}
+
+/**
+ * Orange
+ */
+.orange.button
+{
+	background: #F16863!important;
+}
+
+/**
+ * Yellow
+ */
+.yellow.button
+{
+	background: #ffb515!important;
+}
+
+/* states */
+.button:hover,
+input[type="submit"]:hover
+{
+    background: #3b4552!important;
+}
+.button:active
+{
+	top: 1px;
+}
+/* @end Buttons */

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="Nina Church" content="blog">
+    <meta name="DBC" content="Dev Bootcamp Blog">
+    <meta name="Nina Church Blog" content="DBC">
+    
+    <!-- title -->
+    <title>Week 5 | Technical</title>
+
+    <link rel="stylesheet" href="pure_html/assets/css/style.css" type="text/css" media="screen" />
+    
+    <!-- google font - roboto slab -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300%2C100%2C700&#038;" type="text/css" media="screen" />
+    
+    <!-- load jquery -->
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.migrate.js"></script>
+    
+</head>
+<!-- /head -->
+
+<body id="index" class="home blog border">
+    
+    <!-- wrapper -->
+    <div id="wrapper"> 
+                
+        <!-- header -->
+        <header id="head" class="textcenter" style="background: #3b4552 url() top center no-repeat;">
+                
+            <div class="boxed">
+            
+                <!-- logo -->
+        		<div id="logo" class="animated bounceInDown">
+                    <a href="http://themes.ikreativ.com/pure_html">
+                        <h1>Thoughts</h1>
+                    </a>
+                </div>
+        		<!-- /logo -->
+        		
+        		<!-- description -->
+                <div id="description" class="animated bounceInUp" >
+                   <p>some random and some researched reflections on hot topic issues in tech, programming and the greater world </p>
+                </div>
+                <!-- /description -->
+        		
+            </div>
+            
+            <!-- nav -->
+            <nav id="primary">
+        		<div class="boxed">
+        		
+            	   <!-- menu -->
+                    <div class="nav">
+                        <ul id="menu-primary" class="menu">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+                            <li class="menu-item current_page_item"><a href="archives.html">Archives</a></li>
+                            <li class="menu-item"><a href="contact.html">About Me</a></li>
+                        </ul>
+                    </div>                    
+                    <!-- /menu -->
+                    
+                    <!-- sidebar toggle -->
+                    <div id="tab">
+                        <a href="#">
+                            <img src="pure_html/assets/img/menu.png" alt="Menu" />
+                        </a>
+                    </div>
+                    <!-- /sidebar toggle -->
+                    
+        		</div>
+            </nav>
+            <!-- /nav -->
+        </header>
+        <!-- /header -->
+        
+        <!-- content -->
+        <div id="content">  
+            
+            <!-- page -->  
+            <section id="page">
+                <div class="boxed">
+                    
+                    <article class="post format-standard post single-post animated bounceInRight">
+                        <div class="post-title"> 
+                            <h3>Wait an Instance (Method)!</h3>
+                            <h4><em>Making Instance Methods in Ruby Class Definitions</em></h4>
+                            <ul class="postmeta nolist">	
+                                <li class="date">Phase 0: Week 5</li>
+                            </ul>                    
+                        </div>
+                    
+                        <div class="featured_image">
+                            <a href="http://imgur.com/QcsIjmP"><img src="http://i.imgur.com/QcsIjmP.gif?1" title="Hosted by imgur.com" /></a>
+                        </div>
+    				
+                <h5>The Lowdown</h5>
+                    <p>
+                        If you have looked into Ruby at all you probably are aware of class methods, or things that do things to different objects. For example arrays and hashes have their own methods that you can call on any array or hash and the object will understand what to do. For example you can call <em>array.map</em> or <em>array.each</em>. But what if you want to make your own class and have it do something? That's where instance methods come in.
+                    </p>
+
+                <h5>Creating an Instance Method</h5>
+                    <ul>
+                        <li>Start by using <em>def</em> and the name of your desired method.</li>
+                        <li>If you need any user input, pass it in in <em>()</em>. </li>
+                        <li>Fill in the method with the functions of your choice. Maybe you want some loops to perform an action on your input, or maybe you simply want it to return something.</li>
+                        <li>Be sure to close it out with <em>end</em>.</li>
+                        <li>Once you've created your method within the Class definition, you can use it on any new class object that you create!</li>
+                    </ul>
+
+            </section>
+        </div>
+
+    				
+        				<ul class="posttags nolist">	
+                            <hr>
+                            <li class="tags">
+                                Tagged: 
+                                <a href="#" rel="tag">methods</a> 
+                                <a href="#" rel="tag">ruby classes</a>
+                            </li>
+                        </ul>    			
+                    </article>
+    		    		
+                </div>
+            </section>
+            <!-- /page -->
+        
+            
+        </div>
+    	<!-- /content -->
+    	
+    	
+    	<!-- footer -->
+    	<footer id="foot">
+    	    <div class="boxed textcenter">
+    	        
+    	        <!-- social -->
+                <div id="social">
+                    <ul class="nolist">
+                       <li class="facebook"><a href="#"><i class="icon-facebook"></i></a></li>
+                       <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                       <li class="gplus"><a href="#"><i class="icon-googleplus"></i></a></li>
+                       <li class="linkedin"><a href="#"><i class="icon-linkedin"></i></a></li>
+                       <li class="dribbble"><a href="#"><i class="icon-dribble"></i></a></li>
+                       <li class="pinterest"><a href="#"><i class="icon-pinterest"></i></a></li>
+                       <li class="youtube"><a href="#"><i class="icon-youtube"></i></a></li>
+                       <li class="vimeo"><a href="#"><i class="icon-vimeo"></i></a></li>
+                       <li class="skype"><a href="skype:#?call"><i class="icon-skype"></i></a></li>
+                     </ul>
+                </div>
+                <!-- /social -->
+    	    
+    	    </div>
+    	</footer>
+    	<!-- /footer -->
+    	
+    	<!-- go to top -->
+    	<div id="top" class="animated bounceInUp">
+        	<a href="#index" alt="Top"><i class="icon-chevron-up"></i></a>
+    	</div>
+    	<!-- /go to top -->
+    	
+    </div>
+    <!-- /wrapper -->
+    
+    <!-- load js -->
+    <script type="text/javascript" src="assets/js/plugins.js"></script>
+    <script type="text/javascript" src="assets/js/application.js"></script>
+    <script type="text/javascript" src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+	
+</body> 
+</html>
